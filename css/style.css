@@ -1,0 +1,54 @@
+/* WELCOME TO CHARITY */
+
+body{position: relative; font-family: sans-serif; cursor: default}
+.top{background-color: #C30047; padding: 10px 5% 10px 5%; color: white; font-weight: bold;}
+.img{width: 34px; height: 25px; vertical-align: top; line-height: 22px; text-align: center; transition: all .8s ease-in-out;}
+.img:hover {transform: rotateY(180deg);}
+.top a{color: white} .top i{margin: 0;}
+nav{background: white; height: 50px; padding: 15px 5%;}
+nav a{color: black; font-weight: bold;} nav a:hover{color: #C30047;}
+nav li{margin-left: 20px; font-size: 18px;padding: 10px; }
+.fixed { position: fixed; z-index: 20000; top:0; height: auto; transition: all 0.5s ease-in-out; box-shadow: 1px 1.3px 2px 5px rgba(0,0,0,0.21)}
+.sm{position: absolute;background: white;top: 40px;left: 0; width: 150px; height: auto; padding: 5px; z-index: 2000; display: none;}
+.sm li{display: block; margin-left: 0!important}
+.donate{background: #C30047; width: 150px; border-radius: 25px; text-align: center;}
+.image{position: relative; height: 650px; overflow: hidden;}
+.one,.two,.three{position: absolute;}
+.one{background-image: url("../img/fille.jpg"); background-position: center center; background-repeat: no-repeat; background-size: cover;}
+.two{background-image: url("../img/fille2.jpg");background-position: center center; background-repeat: no-repeat; background-size: cover;}
+.three{background-image: url("../img/fille3.jpg") ;background-position: center center; background-repeat: no-repeat; background-size: cover;}
+.dots{position: absolute;z-index: 500; display: flex; flex-direction: column; right: 20px; top: 50%;}
+.dot {content: ""; width: 10px; height: 10px; background: white;font-weight: bold; padding: 5px; margin-top: 10px; font-size: 1.2em; border-radius: 5px;}
+.up{position: fixed; background: #C30047; width: 40px; height: 40px; text-align: center; line-height: 40px; border-radius: 30px; bottom: 20px; right: 50px; z-index: 10000; color: white;} .up:hover{text-decoration: none}
+.dotstyle {background: #C30047;}
+.contenair { width: 60%; color: white; margin: 15% 5%;}
+.contenair h1{font-weight: bold; font-size: 4.8em; margin-bottom: 20px; opacity: 0; transform: translateY(100%); transition: all 1s ease-out; transition-delay: 0.1s}
+.contenair p {font-size: 1.1em; margin-bottom: 40px; opacity: 0; transform: translateY(100%); transition: all 1s ease-out; transition-delay: 0.3s}
+.contenair a{display: block; background: #FF6378; padding: 20px; width: 150px; border-radius: 50px; text-align: center; opacity: 0; transform: translateY(100%); transition: all 1s ease-out; transition-delay: 0.5s}
+.opacity{opacity: 1!important;}
+.anim{transform: translateY(0)!important;} .causes h1 {font-size: 40px;}
+.help{height: 540px; padding: 5% 0; overflow: hidden;}
+.helper{width: 5000%;}
+.helper > div{width:345px; float: left; height: 100%;border: 1px solid rgba(0,0,0,0.2); border-radius: 15px; transition: all 0.5s ease-out}
+.helper > div:hover h1{color: #C30047;} .helper > div:hover{box-shadow: 0px 0.3px 0.1px 3px rgba(255, 99, 120,0.18);}
+.button::before{content: ""; position: absolute; width: 100%; height: 100%; top: 0; left: 0;}
+.prec,.suivant {width: 50px; height: 50px; border-radius: 25px; float: left; margin-top: 15%; margin-right: 25px; cursor: pointer; text-align: center; line-height: 100%;}
+.prec::before{content: "<"; width : 100%; height:  100%; color: black; font-weight: bold; font-size:  25px;}
+.suivant::before {content: ">"; width : 100%; height:  100%; color: black; font-weight: bold; font-size:  25px;}
+.image-help1{background-image: url("../img/services-img2.jpg"); height: 50%; width: 100%; background-size: 100% 100%;}
+.image-help2{background-image: url("../img/services-img1.jpg"); height: 50%; width: 100%; background-size: 100% 100%;}
+.image-help3{background-image: url("../img/services-img3.jpg"); height: 50%; width: 100%; background-size: 100% 100%;}
+.donate-h{display: block; background: #C30047; width: 80%; border-radius: 25px; height: auto; text-align: center; padding: 13px;}
+.other {padding: 15px;}
+.other h1 {font-size: 26px; transition: all 0.5s ease-out} .other > p{font-size: 16px; opacity: 0.7}
+.prix p{width: 25%; margin-bottom: 0} .prix i{display: block} .money i{font-size: 16px; margin-bottom: 5px;} .p{color: #C30047}
+.support {height: 550px; background: #FCF8F9; padding: 5%; margin: 80px 0;}
+.banner {width: 50%; height: 100%; } .banner img{width: 100%; height: 100%;}
+.who { width: 50%; height: 100%}
+.who h1, .avant h1 {font-size: 40px; margin-top: 0;}
+.who p, .avant p{ font-size: 22px; opacity: 0.85; line-height: 35px;}
+.more{display: block; background: #C30047; width: 150px; border-radius: 27px; height: auto; text-align: center; padding: 20px;}
+.more:hover .fiew{background-color: rgba(0,0,0,0.12); background-origin: 0 0; background-position: 0% 0%;}
+.details{height: 150px; background-image: url("../img/section.jpg"); background-size: 100% 100%;}
+.detail1{}
+.fiew{top: 0; right: 0; background: transparent; border-radius: 27px; padding: 20px; transition: all .5s linear;}

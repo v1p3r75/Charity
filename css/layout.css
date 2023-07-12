@@ -1,0 +1,158 @@
+@charset "UTF-8";
+/*!
+ * Bootstrap v5.0.0-beta1 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */:root {
+ --bs-blue:#0d6efd;
+ --bs-indigo:#6610f2;
+ --bs-purple:#6f42c1;
+ --bs-pink:#d63384;
+ --bs-red:#dc3545;
+ --bs-orange:#fd7e14;
+ --bs-yellow:#ffc107;
+ --bs-green:#198754;
+ --bs-teal:#20c997;
+ --bs-cyan:#0dcaf0;
+ --bs-white:#fff;
+ --bs-gray:#6c757d;
+ --bs-gray-dark:#343a40;
+ --bs-primary:#0d6efd;
+ --bs-secondary:#6c757d;
+ --bs-success:#198754;
+ --bs-info:#0dcaf0;
+ --bs-warning:#ffc107;
+ --bs-danger:#dc3545;
+ --bs-light:#f8f9fa;
+ --bs-dark:#212529;
+ --bs-font-sans-serif:system-ui,
+ -apple-system,
+ "Segoe UI",
+ Roboto,
+ "Helvetica Neue",
+ Arial,
+ "Noto Sans",
+ "Liberation Sans",
+ sans-serif,
+ "Apple Color Emoji",
+ "Segoe UI Emoji",
+ "Segoe UI Symbol",
+ "Noto Color Emoji";
+ --bs-font-monospace:SFMono-Regular,
+ Menlo,
+ Monaco,
+ Consolas,
+ "Liberation Mono",
+ "Courier New",
+ monospace;
+ --bs-gradient:linear-gradient(180deg,
+ rgba(255,
+ 255,
+ 255,
+ 0.15),
+ rgba(255,
+ 255,
+ 255,
+ 0))
+}
+*,
+::after,
+::before {
+ box-sizing:border-box
+}
+@media (prefers-reduced-motion:no-preference) {
+ :root {
+  scroll-behavior:smooth
+ }
+}
+
+li{display: inline-block;}
+html { box-sizing: border-box;}
+html,body { margin: 0px; padding: 0px;}
+a { text-decoration: none; color:white;}
+.bar{content: ""; width: 1px; height: 25px; background-color: white; opacity: 0.5;}
+.list { margin: 0px; padding: 0px; list-style-type: none; }
+.relative {position: relative;}
+.absolute {position: absolute;}
+.left { float: left; }
+.right { float: right; }
+.center{text-align: center;}
+.wrap{flex-wrap: wrap;}
+.pointer{cursor: pointer;}
+.clear { clear: both; }
+.fixed{position: fixed;}
+.clear-left { clear: left; }
+.clear-right { clear: right; }
+.full { width: 100%; }
+.h {height: 100%;}
+.half { width: 50%; }
+.container { height: auto; overflow: auto; }
+.container-20 { padding-left: 20px; padding-right: 20px; margin: 0px auto; max-width: 100%; }
+.container-40 { padding-left: 40px; padding-right: 40px; margin: 0px auto; max-width: 100%; }
+.container-80 { padding-left: 80px; padding-right: 80px; margin: 0px auto; max-width: 100%; }
+.flex { display: flex; }
+.row { flex-direction: row; }
+.cols-2 { flex: 0 0 50%; -ms-flex: 0 0 50%; max-width: 50%; }
+.cols-3 { flex: 0 0 33.33%; -ms-flex: 0 0 33.33%; max-width: 33.33%; }
+.cols-4 { flex: 0 0 25%; -ms-flex: 0 0 25%; max-width: 100%; }
+.column { flex-direction: column; }
+.justify-sb { justify-content: space-between; }
+.hac { vertical-align: center; }
+.vac { text-align: center; }
+.mg-center { margin: 0 auto; }
+.ib { display: inline-block; }
+.anim-hover { animation: all ease-in-out .5s; }
+.anim-hover:hover { transform: scale(1.02); }
+.fhac { justify-content: center; }
+.fwarp { flex-wrap: wrap; }
+.fvac { align-items: center; }
+.har { text-align: right; }
+.hal { text-align: left; }
+.pt-10 { padding-top: 10px; }
+.pt-20 { padding-top: 20px; }
+.pt-40 { padding-top: 40px; }
+.pl-10 { padding-left: 10px; }
+.pl-20 { padding-left: 20px; }
+.pl-40 { padding-left: 40px; }
+.pr{padding-right: 10px;}
+.pb-10 { padding-bottom: 10px; }
+.pb-20 { padding-bottom: 20px; }
+.pb-40 { padding-bottom: 40px; }
+.mt-10 { margin-top: 10px; }
+.mt-20 { margin-top: 20px; }
+.mt-40 { margin-top: 40px; }
+.mr-10 { margin-right: 10px; }
+.mr-20 { margin-right: 20px; }
+.mr-40 { margin-right: 40px; }
+.ml-10 { margin-left: 10px; }
+.ml-20 { margin-left: 20px; }
+.ml-40 { margin-left: 40px; }
+.mb-10 { margin-bottom: 10px; }
+.mb-20 { margin-bottom: 20px; }
+.mb-40 { margin-bottom: 40px; }
+.mb-80 { margin-bottom: 80px; }
+.ttu { text-transform: uppercase; }
+.bbx { box-sizing: border-box; }
+.ml{margin-right: 2%;}
+.visibility-h{display: none!important;}
+.rotate { transform: scale(180deg);}
+.block{display: block!important;}
+.none{display: none!important;}
+.over-h{overflow: hidden;}
+.bd-1{border-right: 1px solid white;}
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
